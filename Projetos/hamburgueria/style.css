@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+main{
+    background-image: linear-gradient(to right, #DE6E4B, #E1DD8F);
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px #7c7c6d;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+
+}
+
+#produtos{
+    background-color: #e1dd8f88;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+body{
+    background-color: #CACAAA;
+}
+
+#botao{
+    background-color: red;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}

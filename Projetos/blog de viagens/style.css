@@ -1,0 +1,63 @@
+@charset "UTF-8";
+body{
+    background-color: #f4f1ea;
+    color: #1b1b1b;
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+}
+
+h2{
+    color: #2d6a4f;;
+}
+
+small, address{
+    color: #5c5c5c;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #2d6a4f, #1b4332);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+h1{font-size: 3rem;}
+
+h2{font-size: 2em;} 
+
+p{
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.banner-topo{
+    font-size: 5vw;
+}
+
+#primeiro-paragrafo{
+        text-indent: 20px;
+}
+
+blockquote {
+    font: italic bold 1.2rem 'Georgia', serif;
+}
+
+img{
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px rgba(0,0,0,0.2);
+}
+
+h1{
+    text-shadow: 1px 3px 6px rgba(0,0,0,0.3);
+}
+
+a{
+    text-decoration: none;
+        color: #14b56c;
+}
+
+#menu-horizontal li{
+    display: inline;
+    margin: 0 10px;;
+}

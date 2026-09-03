@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+    background-color: #fdf6ec;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+section{
+    color: #2e2620;
+    margin: auto;
+    max-width: 800px;
+    box-shadow: 2px 2px 2px black;
+}
+
+mark
+{
+    background-color: #a3402f;
+}
+
+.cor-secundaria{
+    color: #6b5f52;
+}
+
+h1, h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+dt, dd{
+ color: #a3402f;
+}
+
+h3{
+    padding: 30px;
+}
+
+img{
+    border-radius: 5px;
+}
+

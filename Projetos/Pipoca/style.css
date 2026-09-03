@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+*{
+    max-height: 100%;
+}
+
+main{
+    background-image: linear-gradient(to right, #B8D0EB, #ED217C);
+    margin: auto;
+    max-width: 1400px;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #1B998B;
+}
+
+#produtos{
+    background-color: #702dbd32;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+#botao{
+    background-color: #FFF275;
+    padding: 15px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+#menu ul{
+    list-style: none;  /*Tira as bolinhas da lista */
+    display: flex; /* Força a lista ficar na horizontal*/
+    gap: 15px; /* Cria um espaço entre as palavras */
+}
+
+#menu li:not(last-child)::after{
+    content: "|";
+    margin-left: 15px;
+    
+}
+
+a{
+    text-decoration: none;
+}

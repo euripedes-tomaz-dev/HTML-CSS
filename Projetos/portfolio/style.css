@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredericka+the+Great&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root{
+    --cor0: #F7F4EA;
+    --cor1: #00B295;
+    --cor2: #75C9C8;
+    --cor3: #C0B9DD;
+    --cor4: #422040;
+
+    --fonte-principal: 'Plus Jakarta Sans', Arial, sans-serif;
+    --fonte-titulo: 'Bebas Neue', Arial, sans-serif;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor0);
+    font-family: var(--fonte-principal);
+}
+
+body > h1{
+    font-family: var(--fonte-titulo);
+}
+
+body > h2{
+    font-family: var(--fonte-titulo);
+}
+
+
+header{
+    text-align: center;
+    background-color: var(--cor1);
+    padding: 10px;
+    margin-bottom: 30px;
+    line-height: 2.5em;
+}
+
+main{
+    background-color: var(--cor3);
+    max-width: 800px;
+    min-width: 270px;
+    margin: auto;
+    text-align: justify;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.49);
+}
+
+main img{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+
+.hobbis{
+    margin-top: 20px;
+    padding: 15px;
+}
+
+
+aside{
+    margin-bottom: 10px;
+}
+
+footer{
+    
+}
+
+.cor-fundo{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    max-width: 800px;
+    min-width: 270px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.49);
+}

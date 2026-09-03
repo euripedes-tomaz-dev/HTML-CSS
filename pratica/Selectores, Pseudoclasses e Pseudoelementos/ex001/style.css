@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+p#titulo{
+    color: blue;
+    font-size: 2em;
+}
+
+.destaque{
+    color: red;
+    font-weight: bold;
+}

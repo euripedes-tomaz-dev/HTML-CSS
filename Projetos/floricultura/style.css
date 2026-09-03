@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, #36F39D, #39DC48);
+}
+main{
+    background-color: #88F333;
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #E9E938;
+    background-attachment: fixed;
+}
+
+h1{
+    text-shadow: 1px 1px 5px #569821;
+    text-align: center;
+}
+
+h2{
+    text-shadow: 1px 1px 5px #569821;
+}
+
+a{
+    text-decoration: none;
+}
+
+#servicos, #nossos-servicos{
+    background-color: #5ea6236b;
+}
+
+#contato{
+    font-size: 14px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}

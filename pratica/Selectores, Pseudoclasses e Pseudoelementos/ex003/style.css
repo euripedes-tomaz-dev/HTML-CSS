@@ -1,0 +1,17 @@
+@charset "UTF-8";
+a:hover{
+    text-decoration: none;
+    color: green;
+}
+
+a:visited{
+    color: gray;
+}
+
+.botao:hover{
+    background-color: yellow;
+}
+
+.botao:active{
+    background-color: rgb(113, 113, 0);
+}

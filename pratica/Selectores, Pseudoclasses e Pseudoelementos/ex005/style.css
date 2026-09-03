@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.menu li{
+    display: inline-block;
+}
+
+.menu > .escondido{
+    display: none;
+}
+
+.menu li::before{
+    content: "» ";
+}

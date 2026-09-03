@@ -1,0 +1,287 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root{
+
+    --cor01: #4CAF50;
+    --cor02: #A5D6A7;
+    --cor03: #FDFBF7;
+    --cor04: #3E2723;
+    --cor05: #37474F;
+
+
+    --texto-principal: 'Radio Canada', sans-serif;
+    --texto-titulo: 'Montserrat', sans-serif; 
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor02);
+}
+
+header{
+    background-color: var(--cor01);
+    margin: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.455);
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+header h1{
+    font-family: var(--texto-titulo);
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    font-size: 2.1em;
+    font-weight: 700;
+    
+}
+
+header > nav{
+    background-image: linear-gradient(to bottom, var(--cor02), var(--cor01));
+    padding: 8px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 10px;
+    font-family: var(--texto-principal);
+}
+
+nav#menu > a{
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+nav#menu > a:hover{
+    color: var(--cor02);
+    text-decoration: underline;
+    background-color: var(--cor04);
+    padding: 8px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+
+main{
+    background-color: var(--cor03);
+    max-width: 1400px;
+    min-height: 270px; 
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.455);
+
+}
+
+section#sobre{
+    background-color: #96f59a4d;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.455);
+}
+
+section#sobre h2{
+    font-family: var(--texto-titulo);
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+section#sobre p{
+    font-family: var(--texto-principal);
+    font-size: 1.1em;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.5em;
+
+}
+
+p#segundo-paragrafo{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+section#sobre img{
+    max-width: 530px;
+    min-width: 270px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.351);
+}
+
+
+section#sobre a{
+    display: block;
+    padding: 20px;
+    background-color: var(--cor04);
+    color: white;
+    font-size: 1.5em;
+    max-width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px 0px;
+    text-decoration: none;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.455);
+
+}
+
+section#sobre a:hover{
+    background-color: var(--cor03);
+    color: var(--cor05);
+    text-decoration: underline;
+}
+
+aside{
+    background-color: #86cd8a4d;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.455);
+}
+
+aside > h2{
+    margin-bottom: 10px;
+    font-family: var(--texto-titulo);
+    font-weight: 600;
+    font-size: 1.6em;
+}
+
+aside > p{
+    margin-bottom: 10px;
+    text-indent: 20px;
+    font-family: var(--texto-principal);
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+aside > ul > li{
+    margin-bottom: 5px;
+    list-style-type: none;
+    font-size: 1em;
+    text-indent: 30px;
+}
+
+section#servicos{
+    background-image: linear-gradient(to bottom, var(--cor01), var(--cor05));
+    margin-top: 20px;
+    padding: 20px;
+}
+
+
+section#servicos > h2{
+    font-family: var(--texto-titulo);
+    color: white;
+    margin-bottom: 10px;
+}
+
+section#servicos > ul{
+    background-color: var(--cor04);
+    max-width: 400px;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: justify;
+}
+
+
+section#servicos > ul > li{
+    list-style-type: none;
+    color: white;
+    font-family: var(--texto-principal);
+    margin-bottom: 10px;
+    max-width: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+
+section#depoimentos{
+    background-color: #86cd8a4d;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.455);
+}
+
+
+section#depoimentos > h2{
+    font-family: var(--texto-titulo);
+    margin-bottom: 15px;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+section#depoimentos > h3{
+    font-family: var(--texto-titulo);
+    margin-bottom: 15px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+section#depoimentos > ul > li{
+    list-style-type: none;
+    font-family: var(--texto-principal);
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+section#depoimentos img{   
+    max-width: 525px;
+    min-width: 270px;
+     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.351);
+     border-radius: 10px;
+}
+
+section#depoimentos > blockquote{
+    font-family: var(--texto-principal);
+    text-align: justify;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: var(--cor01);
+    margin: 0px;
+}
+
+footer > h2{
+    font-family: var(--texto-titulo);
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+footer > ul{
+     margin-bottom: 10px;
+}
+
+
+
+footer > ul > li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+}
+
+footer > ul > li > a{
+    color: white;
+    text-decoration: none;
+}
+
+footer > ul > li > a:hover{
+    color: var(--cor05);
+    text-decoration: underline;
+}
+
+footer > p{
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(--cor01), var(--cor05));
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.351);
+    padding: 5px;
+}
